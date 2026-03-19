@@ -112,7 +112,7 @@ const siteConfig = {
 
     "about": {
         "headline": "Expert Roofing & Siding Contractors Serving the DMV & Pennsylvania",
-        "description": "At Legacy Built Exteriors, we believe that your home deserves nothing less than the best. Specializing in roofing services, siding, gutters, soffit, and windows, we are dedicated to enhancing the beauty and durability of your home while ensuring peace of mind through our expertise in insurance claims and storm damage restoration.",
+        "description": "At Legacy Built Exteriors, we believe that your home deserves nothing less than the best. Specializing in <a href=\"roofing.html\">roofing services</a>, <a href=\"siding.html\">siding installation</a>, <a href=\"gutters.html\">gutters</a>, <a href=\"soffits.html\">soffits</a>, and windows, we are dedicated to enhancing the beauty and durability of your home while ensuring peace of mind through our expertise in insurance claims and storm damage restoration.",
         "image": "assets/Hero-desktop.webp",
         "features": [
             "Licensed & Insured Professionals",
@@ -365,7 +365,7 @@ function populateAbout(about) {
     if (!aboutHeadline) return; // About section doesn't exist on this page
 
     aboutHeadline.textContent = about.headline;
-    document.getElementById('about-description').textContent = about.description;
+    document.getElementById('about-description').innerHTML = about.description;
 
     const featuresList = document.getElementById('about-features');
     featuresList.innerHTML = '';
