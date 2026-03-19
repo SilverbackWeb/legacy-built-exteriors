@@ -22,6 +22,26 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+        }
+        @media (max-width: 960px) {
+            .grid-4 { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 520px) {
+            .grid-4 { grid-template-columns: 1fr; }
+        }
+        .cta-bar {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-top: 2.5rem;
+        }
+    </style>
 </head>
 
 <body>
@@ -84,6 +104,10 @@
                 <p style="color: var(--text-light); font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;"><a href="index.html">Legacy Built Exteriors</a> has been serving Arlington homeowners since 2009, tackling the unique exterior challenges that come with this county's older housing stock and urban environment. Arlington's tree-lined streets are beautiful — but those mature oaks and maples contribute to more roof damage, clogged <a href="gutters.html">gutters</a>, and soffit deterioration than homeowners in newer developments typically face. We know Arlington's neighborhoods, its housing ages, and exactly what each home needs.</p>
                 <p style="color: var(--text-light); font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">Much of Arlington's housing stock dates from the 1940s through the 1970s — colonials, cape cods, and ramblers that were built to last but are now well past the lifespan of their original roofing and exterior finishes. These homes have character worth preserving, and they deserve <a href="roofing.html">roofing contractors</a> who understand how to work with older structures, match existing architectural details, and meet Arlington County's permit requirements without cutting corners.</p>
                 <p style="color: var(--text-light); font-size: 1.1rem; line-height: 1.8; margin-bottom: 2rem;">From the dense neighborhoods of Clarendon and Lyon Park to the leafier streets of Donaldson Run and Waverly Hills, we've worked across Arlington County and understand what each area brings. Our team handles everything — <a href="roofing.html">roof replacement and repair</a>, <a href="siding.html">James Hardie siding installation</a>, <a href="gutters.html">seamless gutter systems</a>, and <a href="soffits.html">soffit and fascia work</a> — so you don't need five different contractors to protect your home's exterior.</p>
+                <div class="cta-bar">
+                    <a href="contact.html" class="btn btn-primary">Get a Free Estimate</a>
+                    <a href="tel:2403202174" class="btn btn-secondary">Call (240) 320-2174</a>
+                </div>
             </div>
         </div>
     </section>
@@ -94,7 +118,7 @@
             <h2 style="font-size: 2.2rem; margin-bottom: 0.75rem; text-align: center;">Exterior Services We Provide in Arlington</h2>
             <p style="color: var(--text-light); text-align: center; max-width: 650px; margin: 0 auto 3.5rem;">Every service we offer is available to Arlington homeowners, with licensed crews and full insurance coverage throughout Virginia.</p>
 
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+            <div class="grid-4">
 
                 <!-- Roofing -->
                 <div style="background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 8px; overflow: hidden;">
@@ -137,6 +161,10 @@
                 </div>
 
             </div>
+            <div class="cta-bar" style="justify-content: center; margin-top: 3rem;">
+                <a href="contact.html" class="btn btn-primary">Get a Free Estimate</a>
+                <a href="tel:2403202174" class="btn btn-secondary">Call (240) 320-2174</a>
+            </div>
         </div>
     </section>
 
@@ -167,6 +195,10 @@
                         <li style="color: var(--text-light); padding: 0.4rem 0; border-bottom: 1px solid #222;">Halls Hill</li>
                     </ul>
                     <p style="color: var(--text-light); font-size: 0.9rem; margin-top: 1rem;">Don't see your neighborhood? We serve all of Arlington County — <a href="contact.html" style="color: var(--accent);">contact us</a> for availability.</p>
+                    <div class="cta-bar" style="margin-top: 1.5rem;">
+                        <a href="contact.html" class="btn btn-primary">Get a Free Estimate</a>
+                        <a href="tel:2403202174" class="btn btn-secondary">Call (240) 320-2174</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -176,7 +208,7 @@
     <section class="light-section" style="padding: 5rem 0;">
         <div class="container">
             <h2 style="font-size: 2rem; color: #000; text-align: center; margin-bottom: 3rem;">Why Arlington Homeowners Choose Legacy Built Exteriors</h2>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem; max-width: 900px; margin: 0 auto;">
+            <div class="grid-4" style="max-width: 900px; margin: 0 auto;">
                 <div style="text-align: center;">
                     <div style="font-size: 2.5rem; margin-bottom: 0.75rem;">🏡</div>
                     <h4 style="color: #000; margin-bottom: 0.5rem;">Experienced with Older Homes</h4>
@@ -197,6 +229,10 @@
                     <h4 style="color: #000; margin-bottom: 0.5rem;">105+ Five-Star Reviews</h4>
                     <p style="color: #2c2416; font-size: 0.95rem; line-height: 1.6;">Our reputation in Northern Virginia is built on honest communication, clean job sites, and craftsmanship that holds up for decades.</p>
                 </div>
+            </div>
+            <div class="cta-bar" style="justify-content: center; margin-top: 3rem;">
+                <a href="contact.html" class="btn btn-primary" style="background: #000; color: #c9b896;">Get a Free Estimate</a>
+                <a href="tel:2403202174" class="btn btn-secondary" style="border-color: #000; color: #000;">Call (240) 320-2174</a>
             </div>
         </div>
     </section>
@@ -219,6 +255,11 @@
             <div style="margin-bottom: 2rem; border-bottom: 1px solid #222; padding-bottom: 2rem;">
                 <h4 style="margin-bottom: 0.75rem; color: var(--accent);">How do I know if storm damage qualifies for an insurance claim in Virginia?</h4>
                 <p style="color: var(--text-light); line-height: 1.8;">The DC metro area sees significant storm activity — high winds, hail, and heavy rain can all cause insurance-eligible damage even when it's not visually obvious from the ground. We offer free inspections and will document any damage thoroughly. If your roof or siding qualifies for a claim, we'll work directly with your insurance adjuster throughout the process.</p>
+            </div>
+
+            <div class="cta-bar" style="justify-content: center; margin-bottom: 3rem;">
+                <a href="contact.html" class="btn btn-primary">Get a Free Estimate</a>
+                <a href="tel:2403202174" class="btn btn-secondary">Call (240) 320-2174</a>
             </div>
 
             <div style="margin-bottom: 2rem; border-bottom: 1px solid #222; padding-bottom: 2rem;">
