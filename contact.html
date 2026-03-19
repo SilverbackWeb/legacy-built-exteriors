@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="" id="meta-description">
+    <meta name="keywords" content="" id="meta-keywords">
+    <title id="page-title">Contact Us</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        :root {
+            --bg-dark: #000000;
+            --card-bg: #111827;
+            --border: #1f2937;
+        }
+
+        .contact-page-header {
+            position: relative;
+            color: white;
+            padding: 6rem 0;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .contact-page-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.6) 100%);
+            z-index: 1;
+        }
+
+        .contact-page-header .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .contact-page-header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .contact-page-header p {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.95);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact {
+            padding: 5rem 0;
+            background: var(--bg-dark);
+        }
+
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: start;
+        }
+
+        .contact-info {
+            margin-bottom: 3rem;
+        }
+
+        .contact-info h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: var(--text);
+        }
+
+        .contact-info p {
+            color: var(--text-light);
+            margin-bottom: 2rem;
+            font-size: 1.05rem;
+        }
+
+        .contact-details {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1.5rem;
+            padding: 1.5rem;
+            background: rgba(177, 172, 147, 0.1);
+            border-radius: 0.5rem;
+            border-left: 4px solid var(--primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-item svg {
+            color: var(--primary);
+            flex-shrink: 0;
+            width: 28px;
+            height: 28px;
+            margin-top: 0.25rem;
+        }
+
+        .contact-item a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        .contact-item a:hover {
+            color: var(--primary);
+        }
+
+        .contact-item strong {
+            display: block;
+            color: var(--text);
+            font-size: 1rem;
+            margin-bottom: 0.3rem;
+            font-weight: 600;
+        }
+
+        .contact-item span {
+            color: var(--text-light);
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .contact-form-wrapper {
+            background: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 0.5rem;
+            border: 1px solid var(--border);
+        }
+
+        .contact-form-wrapper iframe {
+            width: 100%;
+            border: none;
+        }
+
+        .maps-section {
+            padding: 5rem 0;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        .maps-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .map-item {
+            border-radius: 0.5rem;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .map-item iframe {
+            width: 100%;
+            height: 400px;
+            display: block;
+        }
+
+        .map-label {
+            text-align: center;
+            margin-top: 1rem;
+            color: var(--text-light);
+            font-weight: 500;
+        }
+
+        @media (max-width: 1024px) {
+            .contact-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .contact-container {
+                grid-template-columns: 1fr;
+            }
+
+            .maps-container {
+                grid-template-columns: 1fr;
+            }
+
+            .map-item iframe {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-black text-white">
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="" alt="" id="nav-logo">
+                <span id="nav-business-name"></span>
+            </a>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li class="nav-dropdown">
+                    <a href="#services">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="roofing.html">Roofing</a></li>
+                        <li><a href="siding.html">Siding</a></li>
+                        <li><a href="gutters.html">Gutters</a></li>
+                        <li><a href="soffits.html">Soffits</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="nav-cta">Get Quote</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="contact-page-header" id="contact-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <h1>Contact Legacy Built Exteriors</h1>
+            <p>Tell us about your roofing or siding project and we'll get back to you quickly with a no-obligation estimate.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <h2 id="contact-headline"></h2>
+                <p id="contact-subheadline"></p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        <a href="" id="contact-phone"></a>
+                    </div>
+                    <div id="contact-addresses">
+                        <!-- Locations populated by JS with icons -->
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-wrapper">
+                <script type="text/javascript" src="https://form.jotform.com/jsform/260324330049144"></script>
+            </div>
+        </div>
+    </section>
+
+    <!-- Maps Section -->
+    <section class="maps-section">
+        <div class="container">
+            <h2 class="section-title">Visit Our Locations</h2>
+            <div class="maps-container">
+                <div class="map-item">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.3602728619494!2d-76.7146939!3d38.9614408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b78350dd59c323%3A0x5866b9922b4ca86f!2sLegacy%20Built%20Exteriors%20%2CLLC!5e0!3m2!1sen!2sus!4v1770056004527!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="map-label">Bowie, MD Office</div>
+                </div>
+                <div class="map-item">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6208.22041180378!2d-77.2284122!3d38.9214585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b64aee1848aba5%3A0x47167491ec87f132!2s1751%20Pinnacle%20Dr%20%23600%2C%20McLean%2C%20VA%2022102!5e0!3m2!1sen!2sus!4v1770056036516!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="map-label">McLean, VA Office</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-column">
+                <h3 id="footer-business-name"></h3>
+                <p id="footer-tagline"></p>
+            </div>
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#gallery">Recent Work</a></li>
+                    <li><a href="index.html#reviews">Reviews</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <p id="footer-phone"></p>
+            </div>
+            <div class="footer-column">
+                <h4>Locations</h4>
+                <div id="footer-locations">
+                    <!-- Locations populated by JS -->
+                </div>
+            </div>
+            <div class="footer-column">
+                <h4>Licenses</h4>
+                <div id="footer-licenses">
+                    <!-- Licenses populated by JS -->
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="footer-year"></span> <span id="footer-copyright-name"></span>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>

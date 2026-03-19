@@ -1,0 +1,235 @@
+{
+  "business": {
+    "name": "Legacy Built Exteriors",
+    "tagline": "Roofing, Siding, Windows, Soffits & Gutters",
+    "phone": "(240) 320-2174",
+    "email": "legacybeoffice@gmail.com",
+    "locations": [
+      {
+        "name": "Maryland",
+        "address": "16701 Melford Blvd Suite 400",
+        "city": "Bowie",
+        "state": "MD",
+        "zip": "20715",
+        "mapUrl": "https://share.google/79zgGzRSorDlNUqk1"
+      },
+      {
+        "name": "Virginia",
+        "address": "1751 Pinnacle Dr Suite 600",
+        "city": "McLean",
+        "state": "VA",
+        "zip": "22102",
+        "mapUrl": "https://maps.app.goo.gl/ikdVVaTo8ywr59zw7"
+      }
+    ],
+    "licenses": {
+      "mhic": "113623",
+      "virginia": "2705195717",
+      "pennsylvania": "199779"
+    },
+    "social": {
+      "instagram": "https://www.instagram.com/legacybuiltexteriors/",
+      "bbb": "https://www.bbb.org/us/md/bowie/profile/residential-roofing/legacy-built-exteriors-llc-0241-236094862",
+      "gaf": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/md/bowie/legacy-built-exteriors-llc-1151002"
+    }
+  },
+
+  "theme": {
+    "primaryColor": "#b1ac93",
+    "secondaryColor": "#000000",
+    "accentColor": "#d4af37"
+  },
+
+  "logo": {
+    "type": "legacy",
+    "alt": "Legacy Built Exteriors Logo"
+  },
+
+  "logoOptions": {
+    "legacy": "assets/solo-logo.webp",
+    "legacy-black": "assets/Logo-black.webp",
+    "legacy-white": "assets/logo-white.webp"
+  },
+
+  "hero": {
+    "label": "Roofing & Siding Contractors, Maryland",
+    "headline": "Legacy Built Exteriors",
+    "tagline": "Where Quality Is The Priority",
+    "ctaText": "Get Your Free Estimate",
+    "backgroundImage": "assets/Hero-desktop.webp",
+    "backgroundImageMobile": "assets/hero-mobile.webp"
+  },
+
+  "services": [
+    {
+      "title": "Roofing",
+      "description": "Expert roofing installation, repair, and maintenance. We handle storm damage restoration and insurance claims to protect your home from the elements.",
+      "image": "assets/ROOFING.webp",
+      "imageMobile": "assets/ROOFING-100.jpg",
+      "url": "roofing.html"
+    },
+    {
+      "title": "Siding",
+      "description": "High-quality siding installation and replacement. We enhance your home's curb appeal while providing superior protection and energy efficiency.",
+      "image": "assets/SIDING.webp",
+      "imageMobile": "assets/SIDING-100.jpg",
+      "url": "siding.html"
+    },
+    {
+      "title": "Gutters",
+      "description": "Professional gutter installation and maintenance. We ensure proper water drainage to protect your foundation and landscaping.",
+      "image": "assets/GUTTERS.webp",
+      "imageMobile": "assets/GUTTERS.jpg",
+      "url": "gutters.html"
+    },
+    {
+      "title": "Soffits",
+      "description": "Custom soffit installation and repair. We provide ventilation and aesthetic improvements for your home's exterior.",
+      "image": "assets/SOFFITS.webp",
+      "imageMobile": "assets/SOFFITS-100.jpg",
+      "url": "soffits.html"
+    }
+  ],
+
+  "about": {
+    "headline": "Expert Roofing & Siding Contractors Serving the DMV & Pennsylvania",
+    "description": "At Legacy Built Exteriors, we believe that your home deserves nothing less than the best. Specializing in roofing services, siding, gutters, soffit, and windows, we are dedicated to enhancing the beauty and durability of your home while ensuring peace of mind through our expertise in insurance claims and storm damage restoration.",
+    "image": "assets/Hero-desktop.webp",
+    "features": [
+      "Licensed & Insured Professionals",
+      "Storm Damage Experts",
+      "Insurance Claims Expertise",
+      "Serving Northern Virginia, Maryland & Pennsylvania",
+      "Free Estimates & Consultations",
+      "Warranty on All Work"
+    ]
+  },
+
+  "gallery": {
+    "headline": "Recent Roofing & Siding Projects - Quality Exterior Contractor Work",
+    "images": [
+      { "src": "Recent work photos/legacy-built-exteriors-siding-roofing-maryland.001.jpeg", "alt": "Roofing Project 1" },
+      { "src": "Recent work photos/legacy-built-exteriors-siding-roofing-maryland.002.jpeg", "alt": "Roofing Project 2" },
+      { "src": "Recent work photos/legacy-built-exteriors-siding-roofing-maryland.003.jpeg", "alt": "Siding Project 1" },
+      { "src": "Recent work photos/legacy-built-exteriors-siding-roofing-maryland.004.jpeg", "alt": "Siding Project 2" },
+      { "src": "Recent work photos/legacy-built-exteriors-siding-roofing-maryland.005.jpeg", "alt": "Gutter Project 1" },
+      { "src": "Recent work photos/legacy-built-exteriors-siding-roofing-maryland.006.jpeg", "alt": "Complete Exterior Work" },
+      { "src": "Recent work photos/legacy-built-exteriors-siding-roofing-maryland.007.jpeg", "alt": "Roofing Project 3" },
+      { "src": "Recent work photos/legacy-built-exteriors-siding-roofing-maryland.008.jpeg", "alt": "Siding & Roofing Combo" },
+      { "src": "Recent work photos/legacy-built-exteriors-siding-roofing-maryland.009.jpeg", "alt": "Home Exterior Renovation" },
+      { "src": "Recent work photos/legacy-built-exteriors-siding-roofing-maryland.010.jpeg", "alt": "Quality Craftsmanship" },
+      { "src": "Recent work photos/legacy-built-exteriors-siding-roofing-maryland.011.jpeg", "alt": "Roofing Installation" },
+      { "src": "Recent work photos/legacy-built-exteriors-siding-roofing-maryland.012.jpeg", "alt": "Exterior Transformation" },
+      { "src": "Recent work photos/legacy-built-exteriors-siding-roofing-maryland.013.jpeg", "alt": "Professional Installation" },
+      { "src": "Recent work photos/legacy-built-exteriors-siding-roofing-maryland.014.jpeg", "alt": "Finished Project" },
+      { "src": "Recent work photos/legacy-built-exteriors-siding-roofing-maryland.015.jpeg", "alt": "Storm Damage Repair" },
+      { "src": "Recent work photos/legacy-built-exteriors-siding-roofing-maryland.016.jpeg", "alt": "Quality Results" },
+      { "src": "Recent work photos/legacy-built-exteriors-siding-roofing-maryland.017.jpeg", "alt": "Home Improvement" },
+      { "src": "Recent work photos/legacy-built-exteriors-siding-roofing-maryland.018.jpeg", "alt": "Exterior Excellence" }
+    ]
+  },
+
+  "reviews": [
+    {
+      "quote": "Professional team that delivered exceptional work on our roof replacement. They handled our insurance claim seamlessly and the quality is outstanding.",
+      "name": "John M.",
+      "rating": 5
+    },
+    {
+      "quote": "Legacy Built Exteriors transformed our home's exterior. New siding and gutters look amazing and the installation was flawless.",
+      "name": "Sarah T.",
+      "rating": 5
+    },
+    {
+      "quote": "Excellent service from start to finish. They were responsive, professional, and the workmanship exceeded our expectations.",
+      "name": "Michael R.",
+      "rating": 5
+    },
+    {
+      "quote": "Great experience with the entire process. Fast estimates, fair pricing, and they completed the work right on schedule.",
+      "name": "Jennifer L.",
+      "rating": 5
+    },
+    {
+      "quote": "Highly recommend Legacy Built Exteriors. They handled our storm damage claim and rebuilt our roof better than original.",
+      "name": "David K.",
+      "rating": 5
+    }
+  ],
+
+  "process": [
+    {
+      "title": "Free Consultation & Estimate",
+      "description": "We assess your project, discuss your needs, and provide a detailed, no-obligation estimate."
+    },
+    {
+      "title": "Insurance Claim Assistance",
+      "description": "If storm damage is involved, we handle the insurance claim process to maximize your coverage."
+    },
+    {
+      "title": "Expert Installation",
+      "description": "Our licensed professionals execute the work with precision, using quality materials and proven techniques."
+    },
+    {
+      "title": "Quality Inspection & Warranty",
+      "description": "Final walkthrough ensures everything meets our standards, backed by our warranty on all work."
+    }
+  ],
+
+  "serviceArea": {
+    "mapImage": "assets/service-area-map.svg",
+    "headline": "Roofing & Siding Contractors Throughout the Washington DC Region",
+    "highlightText": "DMV Area",
+    "description": "We provide professional roofing and siding services throughout the Washington DC metropolitan region. Our team serves homeowners across Northern Virginia and Maryland, including Fairfax County, Loudoun County, Prince William County, Montgomery County, and Prince George's County. We also provide services in select Pennsylvania communities including York, Hanover, Mechanicsburg, and Harrisburg. Our team focuses on residential and commercial projects in the surrounding suburbs and communities of Washington DC.",
+    "locations": [
+      {
+        "name": "Bowie, MD Office",
+        "address": "16701 Melford Blvd Suite 400, Bowie, MD 20715",
+        "mapUrl": "https://www.google.com/maps/place/16701+Melford+Blvd+Suite+400,+Bowie,+MD+20715,+USA/@38.9614408,-76.7172688,17z/data=!3m1!4b1!4m6!3m5!1s0x89b7edebfa6e2f41:0x6541b5f2ba279567!8m2!3d38.9614408!4d-76.7146939!16s%2Fg%2F11whr1v9bk?entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
+      },
+      {
+        "name": "McLean, VA Office",
+        "address": "1751 Pinnacle Dr Suite 600, McLean, VA 22102",
+        "mapUrl": "https://www.google.com/maps/place/1751+Pinnacle+Dr+%23600,+McLean,+VA+22102,+USA/@38.9214585,-77.2309871,17z/data=!3m1!4b1!4m6!3m5!1s0x89b64aee1848aba5:0x47167491ec87f132!8m2!3d38.9214585!4d-77.2284122!16s%2Fg%2F11q_6bhk61?entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
+      }
+    ],
+    "serviceAreas": {
+      "Fairfax County, VA": [
+        "Arlington", "Fairfax", "Falls Church", "McLean", "Reston", "Vienna", "Great Falls", "Herndon", "Oakton"
+      ],
+      "Loudoun County, VA": [
+        "Leesburg", "Ashburn", "Sterling", "Dulles", "Broadlands", "South Riding", "Purcellville"
+      ],
+      "Prince William County, VA": [
+        "Manassas", "Woodbridge", "Burke", "Centreville", "Haymarket", "Springfield"
+      ],
+      "Montgomery County, MD": [
+        "Bethesda", "Rockville", "Gaithersburg", "Silver Spring", "Kensington", "Germantown", "Clarksburg", "Poolesville"
+      ],
+      "Prince George's County, MD": [
+        "Hyattsville", "Bowie", "Greenbelt", "College Park", "Laurel", "Takoma Park"
+      ],
+      "Pennsylvania": [
+        "York", "Hanover", "Mechanicsburg", "Harrisburg"
+      ]
+    }
+  },
+
+  "contact": {
+    "headline": "Get Your Free Roofing or Siding Estimate",
+    "subheadline": "Tell us about your project. We'll review your details and get back to you quickly with a no-obligation estimate.",
+    "processFooterText": "This process ensures quality, longevity, and a perfect final result — not rushed work that leads to problems later.",
+    "processCtaText": "Schedule Your Project"
+  },
+
+  "footer": {
+    "copyright": "Legacy Built Exteriors",
+    "year": "2025"
+  },
+
+  "seo": {
+    "title": "Legacy Built Exteriors | Roofing, Siding, Gutters & More | Washington DC Area",
+    "description": "Professional roofing, siding, gutters, soffits, and window services in Maryland and Virginia. Expert storm damage repair and insurance claims. Free estimates.",
+    "keywords": "roofing contractors, siding installation, gutter services, storm damage repair, Maryland, Virginia, Washington DC, insurance claims"
+  }
+}
