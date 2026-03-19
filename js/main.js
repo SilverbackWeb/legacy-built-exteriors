@@ -506,7 +506,9 @@ function populateServiceArea(serviceArea) {
 
             cities.forEach(city => {
                 const cityItem = document.createElement('li');
-                cityItem.textContent = city;
+                const slug = city.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+                const state = region.includes(', VA') ? 'va' : region.includes(', MD') ? 'md' : 'pa';
+                cityItem.innerHTML = `<a href="${slug}-${state}.html">${city}</a>`;
                 citiesList.appendChild(cityItem);
             });
 
