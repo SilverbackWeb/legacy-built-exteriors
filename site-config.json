@@ -20,6 +20,14 @@
         "state": "VA",
         "zip": "22102",
         "mapUrl": "https://maps.app.goo.gl/ikdVVaTo8ywr59zw7"
+      },
+      {
+        "name": "Pennsylvania",
+        "address": "3425 Simpson Ferry Rd #100",
+        "city": "Camp Hill",
+        "state": "PA",
+        "zip": "17011",
+        "mapUrl": "https://www.google.com/maps/search/3425+Simpson+Ferry+Rd+%23100,+Camp+Hill,+PA+17011"
       }
     ],
     "licenses": {
@@ -191,6 +199,11 @@
         "name": "McLean, VA Office",
         "address": "1751 Pinnacle Dr Suite 600, McLean, VA 22102",
         "mapUrl": "https://www.google.com/maps/place/1751+Pinnacle+Dr+%23600,+McLean,+VA+22102,+USA/@38.9214585,-77.2309871,17z/data=!3m1!4b1!4m6!3m5!1s0x89b64aee1848aba5:0x47167491ec87f132!8m2!3d38.9214585!4d-77.2284122!16s%2Fg%2F11q_6bhk61?entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
+      },
+      {
+        "name": "Camp Hill, PA Office",
+        "address": "3425 Simpson Ferry Rd #100, Camp Hill, PA 17011",
+        "mapUrl": "https://www.google.com/maps/search/3425+Simpson+Ferry+Rd+%23100,+Camp+Hill,+PA+17011"
       }
     ],
     "serviceAreas": {

@@ -39,6 +39,14 @@ const siteConfig = {
                 "state": "VA",
                 "zip": "22102",
                 "mapUrl": "https://maps.app.goo.gl/ikdVVaTo8ywr59zw7"
+            },
+            {
+                "name": "Pennsylvania",
+                "address": "3425 Simpson Ferry Rd #100",
+                "city": "Camp Hill",
+                "state": "PA",
+                "zip": "17011",
+                "mapUrl": "https://www.google.com/maps/search/3425+Simpson+Ferry+Rd+%23100,+Camp+Hill,+PA+17011"
             }
         ],
         "licenses": {
