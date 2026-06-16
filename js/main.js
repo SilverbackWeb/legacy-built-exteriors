@@ -84,7 +84,7 @@ const siteConfig = {
         "tagline": "Where Quality Is The Priority",
         "ctaText": "Get Your Free Estimate",
         "backgroundImage": "assets/Hero-desktop.webp",
-        "backgroundImageMobile": "assets/hero-mobile.webp"
+        "backgroundImageMobile": "assets/legacy-exteriors.webp"
     },
 
     "services": [
