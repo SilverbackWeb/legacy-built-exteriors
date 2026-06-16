@@ -83,7 +83,7 @@ const siteConfig = {
         "headline": "Legacy Built Exteriors",
         "tagline": "Where Quality Is The Priority",
         "ctaText": "Get Your Free Estimate",
-        "backgroundImage": "assets/Hero-desktop.webp",
+        "backgroundImage": "assets/Hero-desktop-legacy-exteriors.webp",
         "backgroundImageMobile": "assets/legacy-exteriors.webp"
     },
 
