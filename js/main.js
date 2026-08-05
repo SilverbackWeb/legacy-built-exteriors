@@ -21,7 +21,7 @@ const siteConfig = {
     "business": {
         "name": "Legacy Built Exteriors",
         "tagline": "Roofing, Siding, Windows, Soffits & Gutters",
-        "phone": "(240) 320-2174",
+        "phone": "(240) 245-7594",
         "email": "legacybeoffice@gmail.com",
         "locations": [
             {
